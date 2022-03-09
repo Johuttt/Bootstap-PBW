@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet1" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm">
+    <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="logo1.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
+            <b>Fruity</b>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact-me.html" style="color: blue;"><b>Contact Me</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <p></p>
+      <br>
+      <div class="container" id="contact">
+        <h2 class="text-primary">Contact Me</h2>
+        <p>If you need help, please contact us via the form below</p>
+        <form class="row g-4">
+            <div class="col-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            </div>
+            <div class="col-6">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" placeholder="Enter Name" aria-label="First name" id="firstname" required>
+            </div>
+            <div class="col-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" placeholder="Enter Name" aria-label="Last name" id="lastname" required>
+            </div>
+            <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="2" required></textarea>
+            </div>
+            <div class="col-12">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">I agree to the terms and conditions</label>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+    <p></p>
+    <br>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
